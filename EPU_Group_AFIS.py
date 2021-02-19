@@ -206,7 +206,7 @@ def main(xml_dir = os.getcwd(), n_clusters = 1, apix = 1.00,
                     break
 
             if movie_fn is None:
-                movie_fn = '{0}_Fractions.{1}'.format(
+                movie_fn = '{0}_fractions.{1}'.format(
                         os.path.join(movie_dir, root), ftype)
 
             f.write('{0}\t{1:d}\n'.format(movie_fn, optics_group))
